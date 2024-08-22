@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 50px 100px;
+  background-color: rgb(238, 233, 233);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  form,
+  .previews {
+    width: 100%;
+    background-color: rgb(205, 202, 202);
+    margin-bottom: 30px;
+  }
+  form {
+    padding-top: 30px;
+    padding-left: 30px;
+    input {
+      width: 300px;
+      height: 30px;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      padding-left: 10px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      display: inline-block;
+      width: 80px;
+      height: 30px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      background-color: rgb(214, 234, 214);
+      cursor: pointer;
+      &:hover {
+        transform: scale3d(1.2, 1.2, 1.2);
+      }
+    }
+  }
+  .player {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 30px;
+  }
+  .previews {
+    padding-left: 10px;
+    img {
+      width: 112px;
+      height: 70px;
+      margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        transform: scale3d(1.2, 1.2, 1.2);
+      }
+    }
+  }
+}
